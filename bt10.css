@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-1{
+    width: 590px;
+    height: 440px;
+    border: 2px solid white;
+    background-color: white;
+}
+.box-2{
+    width: 490px;
+    height: 340px;
+    background-color:blue;
+    position: relative;
+    left: 45px;
+    bottom: 20px;
+    top: 45px;
+}
+.box-3{
+    width: 340px;
+    height: 200px;
+    background-color: cadetblue;
+    position: relative;
+    top: 55px;
+    left: 83px;
+    transition: transform .2s;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 65px;
+}
+.box-3:hover{
+    width: 330px; 
+    height: 230px;
+    transform: scale(1.5);
+}
